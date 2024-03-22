@@ -148,7 +148,7 @@ to audit.
 Why Nogi?
 ---------
 
-Nogi could be, in some ways, compored to Userland Statically Defined Tracing
+Nogi could be, in some ways, compared to Userland Statically Defined Tracing
 (USDT, `see this article for more details about USDT
 <https://docs.openvswitch.org/en/latest/topics/usdt-probes/>`_).
 
