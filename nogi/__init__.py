@@ -107,7 +107,7 @@ class Nogi:
         serving = True
         while serving:
             try:
-                topic, data = self.q.get(block=False)
+                topic, data = self.q.get()
             except queue.Empty:
                 continue
             if topic == STOP_NOGI_SERVER_SEQUENCE:
